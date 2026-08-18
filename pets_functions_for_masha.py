@@ -19,8 +19,8 @@ def input_product_data() -> Pet:
     health_status = input_int()
     story = input_str()
     age = input_date()
-    color = 
-    character = 
+    color = list(input_int())
+    character = list(input_int())
 
     return Pet(
         icon=icon,
